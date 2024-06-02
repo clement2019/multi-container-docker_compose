@@ -2,7 +2,7 @@ import mysql.connector
  
 connection = mysql.connector.connect(
     user='root', password='********', host='mysql',port="3306", database='product')
-print("DB connected")
+print("DB connected now")
  
 cursor = connection.cursor()
 cursor.execute('Select * FROM employee')
